@@ -1,0 +1,259 @@
+* {
+  margin-top: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ubicar el h1 dentro del header como contenedor gral y al h1 aplicarle el estilo despues  */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/hockeyenarg.webp);
+  width: 100%;
+  background-position-y: 60%;
+  background-size: cover;
+  /* color: rgb(9, 6, 17);
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233); */
+  margin-bottom: 0%;
+  height: 25vh;
+  border-radius: 9px;
+}
+
+h1 {
+  color: rgb(9, 6, 17);
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+}
+
+
+.navegador {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(146, 146, 185, 0.281);
+  color: black;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 22px;
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  border-radius: 9px;
+}
+
+.titulo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 4%;
+  font-size: 30px;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-shadow: -1px -1px 2px;
+  color: rgba(95, 158, 160, 0.158);
+  color: black;
+  padding: 0, 5%;
+  margin-bottom: 6%;
+
+}
+
+.titulo2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0%;
+  font-size: 27px;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  padding: 0, 1%;
+}
+
+.informaciones {
+  width: 80%;
+  display: flex;
+  display: inline;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  background-color: rgba(113, 120, 143, 0.596);
+  border-radius: 9px;
+  margin-left: 10%;
+}
+
+.informaciones2 {
+  width: 80%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  font-size: 20px;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-bottom: 1%;
+  margin-left: 10%;
+  border-radius: 9px;
+}
+
+.informaciones3 {
+  width: 80%;
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  font-size: 20px;
+  text-align: start;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 9px;
+  list-style-type: decimal;
+  border: none;
+
+}
+
+.informaciones4 {
+  width: 80%;
+  border-radius: 9px;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: start;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 10%;
+  margin-top: 2%;
+  list-style-type: decimal;
+}
+
+.informaciones5 {
+  width: 80%;
+  border-radius: 9px;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: start;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 15%;
+  margin-top: 2%;
+  list-style-type: circle;
+}
+
+.subrallado {
+  text-decoration: underline;
+  width: 80%;
+  border-radius: 9px;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: start;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.informaciones6 {
+  width: 80%;
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 9px;
+}
+
+.informaciones7 {
+  display: flex;
+  width: 80%;
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: -7px 7px 7px rgb(253, 253, 255);
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(113, 120, 143, 0.726);
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 9px;
+}
+
+.flex-mapas {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10%;
+  border-radius: 2px;
+  width: 100%;
+}
+
+.mapas {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 30%;
+  height: 34vh;
+  object-fit: cover;
+  text-align: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 158, 0.76);
+  text-align: center;
+  justify-content: space-evenly;
+
+}
+
+table {
+  background-color: rgba(113, 120, 143, 0.075);
+  margin-left: 10%;
+  margin-top: 2%;
+  border-radius: 9px;
+  text-shadow: -7px 7px 7px rgb(227, 227, 233);
+  margin-bottom: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+main {
+  position: relative;
+}
+
+.logo {
+  pointer-events: none;
+  object-fit: contain;
+  left: 540px;
+  position: absolute;
+  margin-top: 0%;
+  height: 250px;
+  opacity: 0.3;
+}
+
+.img3 {
+  object-fit: none;
+  background-image: url(../img/niñojugando.webp);
+  width: 100%;
+  background-position-y: 35%;
+  background-position-x: 20%;
+  height: 25vh;
+  background-size: cover;
+  pointer-events: none;
+  opacity: 0.9;
+  border-radius: 9px;
+}
